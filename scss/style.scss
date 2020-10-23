@@ -1,0 +1,61 @@
+/* Variables */
+$primary-color:#e84d8a;
+
+/* Principal */
+body {
+  background: $primary-color;
+  background: linear-gradient(90deg, rgba(154,63,251,1) 0%, rgba(252,70,107,1) 100%);
+  margin-top: 5%;
+  }
+
+
+
+  h1 {
+      text-align: center;
+      color: white;
+      text-transform: uppercase;
+      font-family: arial;
+  }
+
+
+
+
+  .main {
+      width: 30%;
+      margin-left: 30%;
+      padding: 5%;
+      background-color: white;
+      border-radius: 20px;
+      margin-top: 5%;
+      font-size: 1.2em;
+      line-height: 1.5em;
+
+        label {
+          font-family: arial;
+        }
+        input {
+        width: 80%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        color: #cecece !important;
+        border-radius: 5px;
+        height: 30px;
+        border: 1px solid #bfbfbf;
+        }
+        button.btn.btn-primary.btn-block {
+        text-align: center;
+        width: 100%;
+        border: 2px #ff8fb3 solid;
+        background-color: $primary-color;
+        margin-top: 10%;
+        height: 30px;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 1em;
+        padding:2%;
+        }
+        p{
+          font-family:arial;
+        }
+  }

@@ -1,0 +1,24 @@
+<h1> Connexion</h1>
+<div class="main">
+  <form action="/users/login" method="POST">
+  <div>
+  <label for="email">Email</label><br>
+  <input
+  type="email"
+  name="email"
+  placeholder="Email"
+  />
+  </div>
+  <div>
+      <label for="password">Mot de passe</label><br>
+      <input
+        type="password"
+        name="password"
+        placeholder="Mot de passe"
+      />
+
+  </div>
+  <button type="submit" class="btn btn-primary btn-block">Connexion</button>
+  <p >Vous n'avez pas encore de compte ? <a href="/users/register">Inscription</a></p>
+  </form>
+</div>
